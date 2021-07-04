@@ -1,0 +1,55 @@
+.event_logistic {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(192deg, #17e0bb, #0d7b58);
+  height: 10rem;
+  color: white;
+}
+
+.event_logistic h3 {
+  color: white;
+  font-size: 32px;
+  margin-top: 22px;
+  font-weight: 600;
+  font-family: revert;
+  text-shadow: 1px 1px 9px #525151;
+}
+
+.event_content {
+  display: flex;
+  width: 90vw;
+  margin: -3rem auto;
+  padding: 13px;
+  background: #3a3a3a;
+  max-width: 510px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 3px #444444;
+  color: white;
+  align-items: center;
+}
+
+.image {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #292929;
+}
+
+.image img {
+  height: 100%;
+}
+.info {
+  color: #13b08c;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  padding: 0px 13px;
+  font-style: italic;
+}
+.event_summery {
+  text-align: center;
+  width: 80%;
+  margin: 5rem auto;
+  word-break: break-all;
+}
